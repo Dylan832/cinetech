@@ -1,0 +1,18 @@
+main {
+  background-color: #000;
+  color: #fff;
+}
+#containerMovie,
+#containerSerie {
+  display: flex;
+  flex-wrap: wrap;
+}
+#containerMovie div img {
+  height: 20px !important;
+}
+#containerSerie {
+  background-color: blue;
+}
+#carouselMovie {
+  margin-bottom: 2%;
+}
